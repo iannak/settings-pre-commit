@@ -1,0 +1,4 @@
+django-extensions
+ipdb==0.13.9
+pre-commit
+pip-tools
