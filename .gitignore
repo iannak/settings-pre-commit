@@ -5,6 +5,8 @@ temp/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 temp_node_modules/
+Pipfile
+Pipfile.lock
 node_modules/
 *.py[cod]
 *$py.class
