@@ -4,50 +4,128 @@
 #
 #    pip-compile tests.in
 #
-attrs==21.4.0             # via pytest
-certifi==2022.5.18.1      # via requests
-charset-normalizer==2.0.12  # via requests
-click==8.1.3              # via safety
-coverage==6.0b1           # via -r tests.in, pytest-cov
-dparse==0.5.1             # via safety
-factory-boy==3.2.1        # via pytest-factoryboy
-faker==13.12.0            # via factory-boy, pytest-faker
-flake8==3.9.2             # via -r tests.in
-freezegun==1.1.0          # via -r tests.in
-glob2==0.7                # via pytest-bdd
-idna==3.3                 # via requests, yarl
-inflection==0.5.1         # via pytest-factoryboy
-iniconfig==1.1.1          # via pytest
-mako==1.2.0               # via pytest-bdd
-markupsafe==2.1.1         # via mako
-mccabe==0.6.1             # via flake8
-multidict==6.0.2          # via yarl
-packaging==21.3           # via dparse, pytest, safety
-parse-type==0.6.0         # via pytest-bdd
-parse==1.19.0             # via parse-type, pytest-bdd
-pluggy==0.13.1            # via pytest
-py==1.10.0                # via -r tests.in, pytest, pytest-bdd
-pycodestyle==2.7.0        # via flake8
-pyflakes==2.3.1           # via flake8
-pyparsing==3.0.9          # via packaging
-pytest-bdd==4.0.2         # via -r tests.in
-pytest-cov==2.12.1        # via -r tests.in
-pytest-django==4.4.0      # via -r tests.in
-pytest-factoryboy==2.1.0  # via -r tests.in
-pytest-faker==2.0.0       # via -r tests.in
-pytest-pythonpath==0.7.3  # via -r tests.in
-pytest-vcr==1.0.2         # via -r tests.in
-pytest==6.2.4             # via -r tests.in, pytest-bdd, pytest-cov, pytest-django, pytest-factoryboy, pytest-pythonpath, pytest-vcr
-python-dateutil==2.8.2    # via faker, freezegun
-pyyaml==6.0               # via dparse, vcrpy
-requests==2.27.1          # via safety
-safety==1.10.3            # via -r tests.in
-six==1.16.0               # via parse-type, pytest-bdd, python-dateutil, vcrpy
-toml==0.10.2              # via dparse, pytest, pytest-cov
-urllib3==1.26.9           # via requests
-vcrpy==4.1.1              # via -r tests.in, pytest-vcr
-wrapt==1.14.1             # via vcrpy
-yarl==1.7.2               # via vcrpy
+attrs==21.4.0
+    # via pytest
+certifi==2022.5.18.1
+    # via requests
+charset-normalizer==2.0.12
+    # via requests
+click==8.1.3
+    # via safety
+coverage==6.0b1
+    # via
+    #   -r tests.in
+    #   pytest-cov
+dparse==0.5.1
+    # via safety
+factory-boy==3.2.1
+    # via pytest-factoryboy
+faker==13.12.0
+    # via
+    #   factory-boy
+    #   pytest-faker
+flake8==3.9.2
+    # via -r tests.in
+freezegun==1.1.0
+    # via -r tests.in
+glob2==0.7
+    # via pytest-bdd
+idna==3.3
+    # via
+    #   requests
+    #   yarl
+inflection==0.5.1
+    # via pytest-factoryboy
+iniconfig==1.1.1
+    # via pytest
+mako==1.2.2
+    # via pytest-bdd
+markupsafe==2.1.1
+    # via mako
+mccabe==0.6.1
+    # via flake8
+multidict==6.0.2
+    # via yarl
+packaging==21.3
+    # via
+    #   dparse
+    #   pytest
+    #   safety
+parse==1.19.0
+    # via
+    #   parse-type
+    #   pytest-bdd
+parse-type==0.6.0
+    # via pytest-bdd
+pluggy==0.13.1
+    # via pytest
+py==1.10.0
+    # via
+    #   -r tests.in
+    #   pytest
+    #   pytest-bdd
+pycodestyle==2.7.0
+    # via flake8
+pyflakes==2.3.1
+    # via flake8
+pyparsing==3.0.9
+    # via packaging
+pytest==6.2.4
+    # via
+    #   -r tests.in
+    #   pytest-bdd
+    #   pytest-cov
+    #   pytest-django
+    #   pytest-factoryboy
+    #   pytest-pythonpath
+    #   pytest-vcr
+pytest-bdd==4.0.2
+    # via -r tests.in
+pytest-cov==2.12.1
+    # via -r tests.in
+pytest-django==4.4.0
+    # via -r tests.in
+pytest-factoryboy==2.1.0
+    # via -r tests.in
+pytest-faker==2.0.0
+    # via -r tests.in
+pytest-pythonpath==0.7.3
+    # via -r tests.in
+pytest-vcr==1.0.2
+    # via -r tests.in
+python-dateutil==2.8.2
+    # via
+    #   faker
+    #   freezegun
+pyyaml==6.0
+    # via
+    #   dparse
+    #   vcrpy
+requests==2.27.1
+    # via safety
+safety==1.10.3
+    # via -r tests.in
+six==1.16.0
+    # via
+    #   parse-type
+    #   pytest-bdd
+    #   python-dateutil
+    #   vcrpy
+toml==0.10.2
+    # via
+    #   dparse
+    #   pytest
+    #   pytest-cov
+urllib3==1.26.9
+    # via requests
+vcrpy==4.1.1
+    # via
+    #   -r tests.in
+    #   pytest-vcr
+wrapt==1.14.1
+    # via vcrpy
+yarl==1.7.2
+    # via vcrpy
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
