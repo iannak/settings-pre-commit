@@ -20,7 +20,7 @@ decorator==5.1.1
     #   ipython
 distlib==0.3.4
     # via virtualenv
-django==4.0.6
+django==4.1.7
     # via django-extensions
 django-extensions==3.1.5
     # via -r dev.in
